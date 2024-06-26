@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers Stations: UVB-76, The Pip, The Goose, T-Marker, Radiofax</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: #444;
+            padding: 10px 20px;
+        }
+        nav .dark-mode-toggle {
+            cursor: pointer;
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: 1em;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        nav .dark-mode-toggle:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        .dark-mode nav {
+            background-color: #222;
+        }
+        .dark-mode nav .dark-mode-toggle {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Numbers Stations</h1>
+        <p>UVB-76, The Pip, The Goose, T-Marker, Radiofax</p>
+    </header>
+    <nav>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </nav>
+    <div class="content">
+        <section id="uvb-76">
+            <h2>UVB-76 (The Buzzer)</h2>
+            <p>UVB-76, also known as The Buzzer, is a shortwave radio station that broadcasts on the frequency 4625 kHz. It has been active since the late 1970s and is known for its characteristic buzzing sound, which is occasionally interrupted by voice transmissions in Russian. The purpose of the station remains unknown, leading to widespread speculation and intrigue.</p>
+        </section>
+        <section id="the-pip">
+            <h2>The Pip</h2>
+            <p>The Pip is another mysterious shortwave radio station, broadcasting on the frequency 5448 kHz. Like UVB-76, it emits a regular beeping sound, occasionally interrupted by coded messages or voice transmissions. Its origin and purpose are also unknown, contributing to the mystique surrounding numbers stations.</p>
+        </section>
+        <section id="the-goose">
+            <h2>The Goose</h2>
+            <p>The Goose is a nickname for a mysterious radio station broadcasting on 4310 kHz. It is known for its characteristic goose-like honking sound. The station occasionally transmits voice messages in Russian, similar to UVB-76 and The Pip. Its purpose remains a topic of speculation among radio enthusiasts.</p>
+        </section>
+        <section id="t-marker">
+            <h2>T-Marker</h2>
+            <p>The T-Marker station is a lesser-known numbers station that broadcasts a repetitive "T" sound on the frequency 3828 kHz. It is believed to be a military station, but as with other numbers stations, its true purpose and origin are unknown.</p>
+        </section>
+        <section id="radiofax">
+            <h2>Radiofax</h2>
+            <p>Radiofax was a shortwave radio station that broadcasted from Ireland between 1988 and 1992. Unlike the other stations mentioned, Radiofax was not a numbers station but provided news, music, and technical information. It is remembered fondly by radio enthusiasts for its eclectic and informative content.</p>
+        </section>
+    </div>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
